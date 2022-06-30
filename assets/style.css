@@ -19,7 +19,9 @@ h2 {
     font-size: 50px;
     color: #1E1E1E;
 }
-
+a{
+    color: #1E1E1E;
+}
 .Links {
     display: flex;
 
@@ -65,4 +67,27 @@ h2 {
 .Projetos {
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+}
+
+.Habilidades h2 {
+    margin-bottom: 20px;
+}
+.Habilidades p{
+    margin-top: -80px;
+}
+.ListProjetos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Projeto{
+    width: 200px;
+    height: 216px;
+    padding-top: 20px;
+    color: #DCF3E7;
+    display: flex;
+    justify-content: center;
+    background-color: #1E1E1E;
 }
