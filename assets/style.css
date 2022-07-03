@@ -19,9 +19,11 @@ h2 {
     font-size: 50px;
     color: #1E1E1E;
 }
-a{
+
+a {
     color: #1E1E1E;
 }
+
 .Links {
     display: flex;
 
@@ -36,35 +38,62 @@ a{
     height: 50px;
 }
 
-.Perfil {
-    width: 500px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.Perfil img {
-    height: 300px;
-    border: 1px solid green;
-    border-radius: 50%;
-}
-
 .Descricao {
-    margin-left: -50px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Perfil h2 {
+    width: 260px;
+    height: 55px;
+    color: #ffffff;
+}
+
+.text {
+    width: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.Descricao p {
+.text p {
     color: #1E1E1E;
     max-width: 600px;
+    height: 200px;
+    margin: 0 auto;
+
 }
+
+.Perfil {
+    width: 100%;
+    height: 36%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B362C;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-right: 80px;
+}
+
+.img img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
 
 .Habilidades,
 .Projetos {
+    margin-top: 40px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -73,16 +102,22 @@ a{
 .Habilidades h2 {
     margin-bottom: 20px;
 }
-.Habilidades p{
-    margin-top: -80px;
+
+.Habilidades p {
+    margin-top: -60px;
+    text-align: center;
 }
-.ListProjetos{
+
+.ListProjetos {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-around;
 }
-.Projeto{
+
+.Projeto {
     width: 200px;
     height: 216px;
     padding-top: 20px;
